@@ -1,4 +1,4 @@
-
+import Navbar from "@/components/Navbar";
 
 const Dashboardlayout = ({children}: {children: React.ReactNode;}) => {
   return (
@@ -7,6 +7,7 @@ const Dashboardlayout = ({children}: {children: React.ReactNode;}) => {
             hello slider
         </div>
         <div className="md:pl-72">
+            <Navbar />
             {children}
         </div>
     </div>
